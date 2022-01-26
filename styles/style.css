@@ -19,6 +19,7 @@ body {
 	height: 100vh;
 	margin: 0;
 	padding: 0;
+	overflow-x: hidden;
 }
 
 header {
@@ -30,7 +31,22 @@ header {
 }
 
 header #nav {
-	
+	text-align: right;
+}
+
+header #nav a, header #nav a:visited {
+	text-decoration: none;
+	color: var(--black);
+}
+
+header #nav a:hover {
+	color: var(--yellow);
+}
+
+header #nav a i {
+	font-size: 2.5em;
+	margin-right: 1em;
+	margin-top: 8px;
 }
 
 header #name-container {
@@ -42,8 +58,8 @@ header #name-container {
 header h1 {
 	text-align: center;
 	font-size: 5.5em;
-	font-weight: 300;
-	/*color: var(--yellow);*/
+	font-weight: 100;
+	color: var(--black);
 }
 
 .tracking-in-expand {
