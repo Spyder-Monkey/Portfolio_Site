@@ -28,6 +28,7 @@ header {
 	background-image: url(../img/5566879.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 header #nav {
