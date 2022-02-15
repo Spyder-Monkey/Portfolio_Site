@@ -20,15 +20,20 @@ body {
 	margin: 0;
 	padding: 0;
 	overflow-x: hidden;
+
+	background-image: url(../img/5566879.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 header {
 	height: 100vh;
 	position: relative;
-	background-image: url(../img/5566879.jpg);
+	/*background-image: url(../img/5566879.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
 }
 
 header #nav {
@@ -121,4 +126,8 @@ section {
 #test {
 	height: 100vh;
 	width: 100vw;
+	background-image: url(../img/60194.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
